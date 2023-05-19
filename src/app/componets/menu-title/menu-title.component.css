@@ -1,0 +1,16 @@
+.container__meu-title{
+    color: #ffffff
+}
+
+.container__meu-title > h1 {
+    margin: 1rem 0 1rem 0;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Segoe UI',  sans-serif;
+}
+
+.container__meu-title > hr{
+    margin: 1rem 0 1rem 0;
+}
