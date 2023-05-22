@@ -1,23 +1,22 @@
 <div class="container__big-card">
     <div class="big-card__picture">
         <img 
-            src="https://occ-0-300-1348.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWvN30woCaQ0j4dkz6WH1PXGk55_P6o5NS9mZMbVfD6GXaSIy002e4r8CTjxfpF9ikPsTbaaSG9tpOQWh64yoCEMTGKtMNCRTDKx.jpg?r=363"   
-            alt=""
+            src="{{ pictureCover}}"   
+            alt="Foto da noticia principal"
             height="200px" 
-            
         >
     </div>
     <div class="big-card__title">
       <h1>
           <a href="#">
-              Novo Especial de Power Rangers
+              {{ cardTitle }}
           </a>
       </h1>
     </div>
     <div class="big-card__description">
         <p>
             <a href="#">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perferendis labore aliquam! Voluptatum consequuntur tempore eius? Facilis veritatis velit, dolor a fuga porro, quo molestias maxime atque quam necessitatibus error.
+                {{ cardDescription}}
             </a>
         </p>
     </div>
